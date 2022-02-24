@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(244, 242, 245);
+}
 .image2{
     width:15vw;
        
@@ -35,4 +38,49 @@
 .btn-toggle{
     color:white;
     background-color: rgb(27, 9, 38);
+}
+.container2{
+    margin:10vh 3vw;
+    background-image:url("https://www.eschoolnews.com/files/2021/02/coding-platform-STEM-code.jpg") ;
+    color:white;
+
+}
+.image{
+    width:70vw;
+    height:79vh;
+    margin-left:10vw;
+    margin-bottom: 3vh;
+
+}
+h1{
+    text-align: center;
+}
+.container2 h3{
+    text-align: center;
+}
+#projo2{
+    text-align: justify;
+    
+    
+}
+#projo1{
+    height:100vh;
+    text-align: justify;
+    margin:0 1vw;
+
+}
+#projo1 h2{
+    text-align: center;
+
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+    bottom:3vh;
+    
+}
+.social-icons{
+    margin-right: 20vw;
+    padding:0.5vw;
+    cursor: pointer;
 }
