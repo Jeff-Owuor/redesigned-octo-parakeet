@@ -1,19 +1,72 @@
-@media (max-width:700px){
-    body{
-        background-color: rgb(244, 242, 245);
-    }
+.unordered{
+    list-style: none;
+}
+.unordered li{
+    display:inline;
+    padding:2vw;
+    
+}
+.unordered li a{
+    text-decoration: none;
+    color:white;
+}
+.btn-toggle{
+    visibility: hidden;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background-color:  rgb(27, 9, 38);
+    
+}
+.image2{
+    width:20vw;
+}
+.image{
+    width:80vw;
+    height:auto;
+    margin-left:10vw;
+    margin-bottom:3vh;
+}
+.container2{
+    background-image: url("https://www.eschoolnews.com/files/2021/02/coding-platform-STEM-code.jpg");
+    background-size:cover;
+}
+.container2 h1, .container2 h3{
+    text-align: center;
+    color:white;
+}
+#projo1 h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+#projo1 p{
+    text-align: justify;
+    margin:0 3vw;
+    
+}
+.footer{
+    display:flex;
+    justify-content: space-between;
+    margin:3vh 3vw;
+}
+
+@media  (max-width:650px){
+   
     .image2{
         width:15vw;
-           
+        height:auto;
+        
     }
     .unordered{
         list-style:none;
         display:none;
+        
     }
     .unordered li{
         display:block;
         padding:1.3vw;
-    
+        
     }
     .unordered li a{
         text-decoration: none;
@@ -21,24 +74,21 @@
     .container{
         display:flex;
         justify-content: space-between;
-        
-    }
+        background-color: rgb(43, 43, 42);
+        position:fixed;
+        width:98vw;
+       top:1vw;
+        }
     .ordered{
-        display:flex;
-        flex-direction: column;
-        left:0;
-        margin-left:60vw;
+        display:block;
         font-size: 7vw;
     }
-    .navbar{
-        background-color: rgb(43, 43, 42);
-        width:98vw;
-        position:fixed;
-        top:1vw;
-    }
+    
     .btn-toggle{
         color:white;
         background-color: rgb(27, 9, 38);
+        visibility: visible;
+        
     }
     .container2{
         margin:10vh 3vw;
@@ -48,7 +98,7 @@
     }
     .image{
         width:70vw;
-        height:79vh;
+        height:auto;
         margin-left:10vw;
         margin-bottom: 3vh;
     
@@ -85,50 +135,4 @@
         padding:0.5vw;
         cursor: pointer;
     }
-}
-.unordered{
-    list-style: none;
-}
-.unordered li{
-    display:inline;
-}
-.unordered li a{
-    text-decoration: none;
-}
-.btn-toggle{
-    visibility: hidden;
-}
-.navbar{
-    display:flex;
-    justify-content: space-between;
-}
-.image2{
-    width:20vw;
-}
-.image{
-    width:80vw;
-    height:auto;
-    margin-left:10vw;
-    margin-bottom:3vh;
-}
-.container2{
-    background-image: url("https://www.eschoolnews.com/files/2021/02/coding-platform-STEM-code.jpg");
-}
-.container2 h1, .container2 h3{
-    text-align: center;
-    color:white;
-}
-#projo1 h2{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-#projo1 p{
-    text-align: justify;
-    margin:0 3vw;
-    
-}
-.footer{
-    display:flex;
-    justify-content: space-between;
-    margin:3vh 3vw;
 }
