@@ -21,4 +21,18 @@
 }
 .ordered{
     display:flex;
+    flex-direction: column;
+    left:0;
+    margin-left:60vw;
+    font-size: 7vw;
+}
+.navbar{
+    background-color: rgb(43, 43, 42);
+    width:98vw;
+    position:fixed;
+    top:1vw;
+}
+.btn-toggle{
+    color:white;
+    background-color: rgb(27, 9, 38);
 }
