@@ -13,35 +13,52 @@ body{
     text-decoration: none;
     color:white;
 }
+.unordered li a:hover{
+    color:orange;
+}
 .btn-toggle{
     visibility: hidden;
 }
 .navbar{
     display:flex;
     justify-content: space-between;
+    align-items: center;
     background-color:  rgb(27, 9, 38);
-    
+    position:fixed;
+    top:0;
+    width:98vw;
 }
 .image2{
-    width:20vw;
+    width:15vw;
+    border-radius: 50%;
+    border:3px solid orange;
+    margin-left:1.2vw;
 }
 .image{
     width:80vw;
     height:auto;
     margin-left:10vw;
     margin-bottom:3vh;
+    border-radius: 27%;
 }
 .container2{
+    margin:20vh 0;
     background-image: url("https://www.eschoolnews.com/files/2021/02/coding-platform-STEM-code.jpg");
-    background-size:cover;
+    background-size:cover; 
+     
+   
 }
 .container2 h1, .container2 h3{
     text-align: center;
     color:white;
 }
+
 #projo1 h2{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+#projo1{
+    margin:10vh 1vw;
 }
 #projo1 p{
     text-align: justify;
@@ -53,9 +70,39 @@ body{
     justify-content: space-between;
     margin:3vh 3vw;
 }
-
+#insta{
+    padding:0 1vw;
+}
+#fcc{
+    padding:0 1vw;
+    width:2vw;
+    height:2vh;
+}
+#projo2{
+    margin:10vh 2vw;
+}
+.cert{
+    display: flex;
+    margin:10vh 2vw;
+    padding:0 2vw;
+    
+}
+.image3{
+    width:45vw;
+    height: auto;
+    margin:0 1vw;
+}
 @media  (max-width:650px){
-   
+    .cert{
+        display: flex;
+        flex-direction: column;
+        margin:2vh 2vw;
+    }
+    .image3{
+        width:75vw;
+        height: auto;
+        margin:2vh 1vw;
+    }
     .image2{
         width:15vw;
         height:auto;
@@ -64,11 +111,13 @@ body{
     .unordered{
         list-style:none;
         display:none;
-        
+        margin-top:11vh;
+        margin-left:25vw;
+        margin-right:25vw;
     }
     .unordered li{
         display:block;
-        padding:1.3vw;
+        padding:1vw;
         
     }
     .unordered li a{
@@ -77,20 +126,21 @@ body{
     .container{
         display:flex;
         justify-content: space-between;
-        background-color: rgb(43, 43, 42);
+        background-color:rgb(27, 9, 38);
         position:fixed;
         width:98vw;
-       top:1vw;
+        top:1vw;
         }
     .ordered{
         display:block;
-        font-size: 7vw;
+        font-size: 4vw;
     }
     
     .btn-toggle{
-        color:white;
+        color:orange;
         background-color: rgb(27, 9, 38);
         visibility: visible;
+        border:2px solid orange;
         
     }
     .container2{
@@ -129,6 +179,7 @@ body{
     .footer{
         display:flex;
         justify-content: space-between;
+        
         bottom:3vh;
         
     }
