@@ -56,9 +56,16 @@ body{
 #projo1 h2{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    color:white;
 }
 #projo1{
     margin:10vh 1vw;
+    border:2px solid orange;
+    padding:7vh 5vw;
+    border-radius:30%;
+    color:orange;
+    background-color: rgb(27, 9, 38);
+    font-size:2.3vw;
 }
 #projo1 p{
     text-align: justify;
@@ -170,11 +177,15 @@ body{
     #projo1{
         text-align: justify;
         margin:0 1vw;
-    
+        border-radius: 20%;
+        border:2px solid orange;
+        background-color:  rgb(27, 9, 38);
+        color:orange;
+        font-size: 3vw;
     }
     #projo1 h2{
         text-align: center;
-    
+        color:white;
     }
     .footer{
         display:flex;
